@@ -37,13 +37,12 @@ crust = "#11111b"
 [directory]
 style = "fg:lavender"
 format = "[$path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
+truncation_length = 0
 
 [git_branch]
 symbol = ""
-style = ""
-format = '[[$symbol $branch ](fg:purple)[>](fg:lavander) ]($style)'
+style = "fg:purple"
+format = '[[$symbol $branch ](fg:purple)[](fg:purple) ]($style)'
 
 [git_status]
 style = "bg:purple"
