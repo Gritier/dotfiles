@@ -114,6 +114,8 @@ source $ZSH/oh-my-zsh.sh
 alias python='python3.12'
 alias py='python3.12'
 alias pip='python3.12 -m pip'
+alias dsa-util='cd ~/Dev/Study/DSA/UtilModule/'
+alias dsa-sort='cd ~/Dev/Study/DSA/Algorithm/Sorting/'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
