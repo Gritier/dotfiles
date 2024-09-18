@@ -2,7 +2,8 @@
 
 format = """$directory\
 [](fg:lavender) \
-$git_branch"""
+$git_branch\
+$python"""
 palette = 'catppuccin_mocha'
 add_newline = false
 
@@ -66,3 +67,7 @@ vimcmd_replace_one_symbol = '[](bold fg:peach)'
 vimcmd_replace_symbol = '[](bold fg:peach)'
 vimcmd_visual_symbol = '[](bold fg:purple)'
 
+[python]
+symbol = '👾 '
+style = "fg:yellow"
+format = '[${symbol}$virtualenv ]($style)'
